@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/needhideshmukh_personal_portfolio/static/css/main.a56c37c0.css",
-    "main.js": "/needhideshmukh_personal_portfolio/static/js/main.d84524f2.js",
+    "main.js": "/needhideshmukh_personal_portfolio/static/js/main.9b747c1a.js",
     "static/js/453.b364c736.chunk.js": "/needhideshmukh_personal_portfolio/static/js/453.b364c736.chunk.js",
     "index.html": "/needhideshmukh_personal_portfolio/index.html",
     "static/media/fragment.glsl": "/needhideshmukh_personal_portfolio/static/media/fragment.43f5d60969dd017787d2.glsl",
     "static/media/vertex.glsl": "/needhideshmukh_personal_portfolio/static/media/vertex.f84b8f9539c004886ed0.glsl",
     "main.a56c37c0.css.map": "/needhideshmukh_personal_portfolio/static/css/main.a56c37c0.css.map",
-    "main.d84524f2.js.map": "/needhideshmukh_personal_portfolio/static/js/main.d84524f2.js.map",
+    "main.9b747c1a.js.map": "/needhideshmukh_personal_portfolio/static/js/main.9b747c1a.js.map",
     "453.b364c736.chunk.js.map": "/needhideshmukh_personal_portfolio/static/js/453.b364c736.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a56c37c0.css",
-    "static/js/main.d84524f2.js"
+    "static/js/main.9b747c1a.js"
   ]
 }
