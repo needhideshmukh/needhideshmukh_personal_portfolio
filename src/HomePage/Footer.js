@@ -16,7 +16,7 @@ const About = () => {
             <ul className="contact-list">
               <li>Made by Needhi &#10084;</li>
               <li>
-                <a href="https://drive.google.com/file/d/1XHkfYbN-X5yWYgiMqeIKDWkL7F5rUy-M/view?usp=drive_link">
+                <a href="https://drive.google.com/file/d/1UA82dx1jv1bvtqxMU_KjmZTof9E_bgyc/view?usp=sharing">
                   Resume
                 </a>
               </li>

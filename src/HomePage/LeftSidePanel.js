@@ -46,7 +46,7 @@ const LeftSidePanel = (props) => {
           </a>
           <a
             className="icon-link"
-            href="https://drive.google.com/file/d/1XHkfYbN-X5yWYgiMqeIKDWkL7F5rUy-M/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1UA82dx1jv1bvtqxMU_KjmZTof9E_bgyc/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             data-tooltip="Resume"

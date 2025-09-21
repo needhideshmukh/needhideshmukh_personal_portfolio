@@ -7,27 +7,27 @@ const Projects = () => {
     {
       projectTitle: "Whack-A-Mole",
       link: "https://needhideshmukh.github.io/beat-box-in/",
-      logo: "../assets/WhackAMole.jpg", // add your logos
+      logo: "/assets/WhackAMole.jpg", // add your logos
     },
     {
       projectTitle: "Green Tiger",
       link: "https://green-tiger.vercel.app/",
-      logo: "../assets/Green_tiger.png", // add your logos
+      logo: "/assets/Green_tiger.png", // add your logos
     },
     {
       projectTitle: "C4GT",
       link: "https://dhiway.github.io/DMP-Inauguration/",
-      logo: "../assets/c4gt.avif", // add your logos
+      logo: "/assets/c4gt.avif", // add your logos
     },
     {
       projectTitle: "Trebal",
       link: "https://trebal.org/",
-      logo: "../assets/Trebal.webp", // add your logos
+      logo: "/assets/Trebal.webp", // add your logos
     },
     {
       projectTitle: "Baba Decoration",
       link: "https://reverent-shaw-d92da5.netlify.app//",
-      logo: "../assets/baba_decoration.png", // add your logos
+      logo: "/assets/baba_decoration.png", // add your logos
     },
   ]
 
@@ -59,7 +59,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={project.logo}
+                      src={process.env.PUBLIC_URL + project.logo}
                       alt={project.projectTitle}
                       className="companyLogo"
                     />

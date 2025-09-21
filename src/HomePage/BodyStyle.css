@@ -346,10 +346,11 @@ html::-webkit-scrollbar {
   }
 
   .about-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: auto;
     max-width: 100%;
     text-align: center;
+    margin-top: 90vh;
   }
 
   .about-image img {

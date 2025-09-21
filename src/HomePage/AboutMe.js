@@ -42,8 +42,8 @@ const About = () => {
           </p>
           <p>Here are a few topics we could bond over :</p>
           <ul className="tech-list">
-            <li>Python</li>
-            <li>SQL</li>
+            <li>Data Analytics</li>
+            <li>Full Stack Development</li>
             <li>Poetry</li>
             <li>My Next Chess Move</li>
             <li>Cliff Diving</li>
@@ -57,7 +57,10 @@ const About = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        <img src="../assets/profilePhoto.jpg" alt="Your Name" />
+        <img
+          src={process.env.PUBLIC_URL + "/assets/profilePhoto.jpg"}
+          alt="Your Name"
+        />
       </motion.div>
     </section>
   )

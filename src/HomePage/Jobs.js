@@ -8,25 +8,25 @@ const Jobs = () => {
       jobTitle: "Project Management Apprentice",
       company: "Google",
       startEndDate: "March 2024 - Present",
-      logo: "../assets/Google_2015_logo.svg.webp", // add your logos
+      logo: "/assets/Google_2015_logo.svg.webp", // add your logos
     },
     {
       jobTitle: "Associate Software Engineer",
       company: "Accenture",
       startEndDate: "August 2023 – March 2024",
-      logo: "../assets/Accenture.svg.webp",
+      logo: "/assets/Accenture.png",
     },
     {
       jobTitle: "Graduate Engineering Trainee",
       company: "Mintbagg",
       startEndDate: "February 2023 – April 2023",
-      logo: "../assets/chronocure.png",
+      logo: "/assets/chronocure.png",
     },
     {
       jobTitle: "Content Writer",
       company: "BdigitaU",
       startEndDate: "May 2021 – September 2021",
-      logo: "../assets/bdigitau-logo.png",
+      logo: "/assets/bdigitau-logo.png",
     },
   ]
 
@@ -54,7 +54,7 @@ const Jobs = () => {
                 {/* Front: Company logo */}
                 <div className="flip-card-front">
                   <img
-                    src={job.logo}
+                    src={process.env.PUBLIC_URL + job.logo}
                     alt={job.company}
                     className="companyLogo"
                   />
